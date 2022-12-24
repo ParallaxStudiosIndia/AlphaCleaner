@@ -1,0 +1,32 @@
+# ProjectCleaner
+Unreal engine plugin for managing unused assets and empty folders in project.
+
+No more Migration and other hacky methods needed.
+
+Versions Supported: 4.27+   
+Platform: Windows and Linux
+
+<img src="https://github.com/ParallaxStudiosIndia/AlphaCleaner/blob/main/AlphaCleaner.png" />
+
+# Installation
+Plugin available on marketplace [Marketplace URL](https://github.com/ParallaxStudiosIndia/AlphaCleaner/)
+
+# Installation from github
+1) Create 'Plugins' folder in your project root directory
+2) Download appropriate version of .zip in releases
+3) Extract to Plugins folder
+4) Open Project, and thats it!
+
+# Installation from source
+1) Create 'Plugins' folder in your project root directory
+2) Clone repository to 'Plugins' folder (make sure you picked correct branch for your engine version)
+3) Build solution and that it!
+
+# Features
+* Unused assets detection ([Unused assets Docs](https://github.com/ParallaxStudiosIndia/AlphaCleaner/wiki))
+* Empty folders detection
+* Non Engine files detection ([Non Engine Files Docs](https://github.com/ParallaxStudiosIndia/AlphaCleaner/wiki/Non-Engine-Files))
+* Corrupted assets detection ([Corrupted assets Docs](https://github.com/ParallaxStudiosIndia/AlphaCleaner/wiki/Corrupted-Assets))
+* Indirectly used assets detection ([Indirectly used assets Docs](https://github.com/ParallaxStudiosIndia/AlphaCleaner/wiki/Indirectly-used-assets))
+* Configurable options for scanning
+* Command line interface ([CLI docs](https://github.com/ParallaxStudiosIndia/AlphaCleaner/wiki/Command-line-interface))

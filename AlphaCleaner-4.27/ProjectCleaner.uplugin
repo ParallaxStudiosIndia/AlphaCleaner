@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "AlpaCleaner",
+	"Description": "The Ultimate Guide to the Unreal Engine Plugin for Managing All Unused Assets and Empty Folders in your Project.",
+	"Category": "ProjectManagementTools",
+	"CreatedBy": "Parallax Studios",
+	"CreatedByURL": "https://www.parallaxstudios.in",
+	"DocsURL": "https://github.com/ParallaxStudiosIndia/AlphaCleaner",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/assets?count=20&keywords=itechnotribes&sortBy=relevancy&sortDir=DESC&start=0",
+	"SupportURL": "https://www.parallaxstudios.in",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AlphaCleaner",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux"
+			]
+		}
+	]
+}
